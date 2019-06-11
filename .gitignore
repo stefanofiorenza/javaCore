@@ -2,3 +2,7 @@ Demo/Trainer/JBasic/JBasicLab300-Reports/bin/*
 Demo/Trainer/JBasic/JBasicLab300-Reports/.classpath
 Demo/Trainer/JBasic/JBasicLab300-Reports/.project
 Demo/Trainer/JBasic/JBasicLab300-Reports/.settings/org.eclipse.jdt.core.prefs
+.project
+**/.settings/**
+.classpath
+**/target/**
