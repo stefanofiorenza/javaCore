@@ -8,11 +8,8 @@
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>		
         <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>	
-          
-         <mysql.driver>5.1.5</mysql.driver> 
-         <commons.dbutils.version>1.6</commons.dbutils.version>
-         
+        <maven.compiler.target>1.8</maven.compiler.target>	         
+                 
         	<!-- Loggers -->
 		<logback.version>1.1.3</logback.version>	
 		<slf4j.org.version>1.7.13</slf4j.org.version>        
@@ -21,7 +18,7 @@
 		<lombok.version>1.16.12</lombok.version>	 
 	  	<commons.lang.version>3.4</commons.lang.version>
 		<commons.io.version>2.4</commons.io.version>
-		
+		<commons.dbutils.version>1.6</commons.dbutils.version>		
 		 <!-- testing -->  
         <org.hamcrest.version>1.3</org.hamcrest.version>
         <mockito.version>1.9.5</mockito.version>
@@ -32,12 +29,7 @@
      <dependencies>
      
      
-     <!-- MySql Driver -->
-		<dependency>
-		    <groupId>mysql</groupId>
-		    <artifactId>mysql-connector-java</artifactId>
-		    <version>${mysql.driver}</version>
-		</dependency>
+ 
      
      
      <!-- Other libs -->	
@@ -64,6 +56,7 @@
 		    <artifactId>commons-dbutils</artifactId>
 		    <version>${commons.dbutils.version}</version>
 	</dependency>
+	
 	
 	
 		<!-- LogBack dependencies -->
