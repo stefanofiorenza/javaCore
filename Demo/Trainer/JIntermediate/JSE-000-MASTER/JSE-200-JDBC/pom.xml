@@ -7,4 +7,33 @@
   </parent>
   <artifactId>JSE-200-JDBC</artifactId>
   <name>JSE-200-JDBC</name>
+  
+  
+    <properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>		
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>	          
+         <mysql.driver>5.1.5</mysql.driver> 
+    </properties>
+         
+    <dependencies>
+  
+      <!-- MySql Driver -->
+		<dependency>
+		    <groupId>mysql</groupId>
+		    <artifactId>mysql-connector-java</artifactId>
+		    <version>${mysql.driver}</version>
+		</dependency>
+		
+  	 <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-dbcp2</artifactId>
+            <version>2.1</version>
+        </dependency>
+  
+  
+  </dependencies>
+  
+  
+  
 </project>
