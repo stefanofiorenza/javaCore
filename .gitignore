@@ -6,3 +6,6 @@ Demo/Trainer/JBasic/JBasicLab300-Reports/.settings/org.eclipse.jdt.core.prefs
 **/.settings/**
 .classpath
 **/target/**
+*.iml
+*/.idea/**
+**/.idea/*
