@@ -1,0 +1,16 @@
+package course.java.jse.threads.sun.jdk5.tut03.concurrent.callable;
+
+import java.util.concurrent.Callable;
+
+public class MyCallable implements Callable<Long> {
+	
+	@Override
+	public Long call() throws Exception {
+		long sum = 0;
+		for (long i = 0; i <= 100; i++) {
+			sum += i;
+		}
+		return sum;
+	}
+
+}
