@@ -1,4 +1,4 @@
-package course.jse.collections.demo;
+package course.jse.collections.api.demo;
 
 public class DemoMap {
 
